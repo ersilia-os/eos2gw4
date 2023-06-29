@@ -23,6 +23,11 @@ Bioactivity-aware chemical embeddings for small molecules. Using transfer learni
 * [Source Code](https://github.com/ersilia-os/compound-embedding)
 * Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos2gw4)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2gw4.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos2gw4) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://github.com/ersilia-os/compound-embedding) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
