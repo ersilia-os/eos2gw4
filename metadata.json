@@ -1,7 +1,7 @@
 {
     "Identifier": "eos2gw4",
     "Slug": "eosce",
-    "Status": "In progress",
+    "Status": "Done",
     "Title": "Ersilia Compound Embeddings",
     "Description": "Bioactivity-aware chemical embeddings for small molecules. Using transfer learning, we have created a fast network that produces embeddings of 1024 features condensing physicochemical as well as bioactivity information The training of the network has been done using the FS-Mol and ChEMBL datasets, and Grover, Mordred and ECFP descriptors",
     "Mode": "In-house",
