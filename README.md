@@ -50,8 +50,12 @@ _10 of 1024 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `610`
-- **Image Size (Mb):** `554.81`
+- **Image Size (Mb):** `555.66`
 
+**Computational Performance (seconds):**
+- 10 inputs: `30.48`
+- 100 inputs: `20.93`
+- 10000 inputs: `280.24`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
