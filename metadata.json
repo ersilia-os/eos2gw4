@@ -15,7 +15,6 @@
         "Compound"
     ],
     "Input Dimension": 1,
-    "Input Shape": "Single",
     "Output": [
         "Value"
     ],
@@ -53,5 +52,6 @@
     "Computational Performance 3": 20.93,
     "Computational Performance 4": 67.61,
     "Computational Performance 5": 280.24,
+    "Input Shape": "Single",
     "Docker Pack Method": "FastAPI"
 }
