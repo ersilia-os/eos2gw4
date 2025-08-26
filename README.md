@@ -4,6 +4,7 @@ Bioactivity-aware chemical embeddings for small molecules. Using transfer learni
 
 This model was incorporated on 2023-04-13.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos2gw4`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-04-13.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`, `Embedding`
 
 ### Input
