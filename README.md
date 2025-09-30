@@ -2,7 +2,7 @@
 
 Bioactivity-aware chemical embeddings for small molecules. Using transfer learning, we have created a fast network that produces embeddings of 1024 features condensing physicochemical as well as bioactivity information The training of the network has been done using the FS-Mol and ChEMBL datasets, and Grover, Mordred and ECFP descriptors
 
-This model was incorporated on 2023-04-13.Last packaged on 2025-08-27.
+This model was incorporated on 2023-04-13.Last packaged on 2025-09-30.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 1024 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `631`
-- **Image Size (Mb):** `641.09`
+- **Image Size (Mb):** `643.87`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.32`
-- 100 inputs: `17.32`
-- 10000 inputs: `59.62`
+- 10 inputs: `27.94`
+- 100 inputs: `17.96`
+- 10000 inputs: `61.17`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
