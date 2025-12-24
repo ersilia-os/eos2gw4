@@ -3,6 +3,7 @@ MAINTAINER ersilia
 
 RUN pip install eosce==0.2.0
 RUN pip install numpy==1.22.3
+RUN pip install ersilia-pack-utils==0.1.5
 
 WORKDIR /repo
 COPY . /repo
