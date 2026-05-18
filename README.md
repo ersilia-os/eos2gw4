@@ -59,7 +59,7 @@ _10 of 1024 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
-- **Publication**: [https://www.nature.com/articles/s41467-023-41512-2](https://www.nature.com/articles/s41467-023-41512-2)
+- **Publication**: [https://doi.org/10.1038/s41467-023-41512-2](https://doi.org/10.1038/s41467-023-41512-2)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2023`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
