@@ -29,7 +29,7 @@ input_len = len(smiles_list)
 output_len = len(outputs)
 assert input_len == output_len
 
-header = ["dim_{:04d}".format(i) for i in range(1024)]
+header = ["feat_{:04d}".format(i) for i in range(1024)]
 
 # write output in a .csv file
 write_out(outputs, header, output_file, np.float32)
