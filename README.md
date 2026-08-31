@@ -28,16 +28,16 @@ This model was incorporated on 2023-04-13.Last packaged on 2025-12-24.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_0000 | float |  | Feature 0 for the Ersilia Compound Embedding |
-| dim_0001 | float |  | Feature 1 for the Ersilia Compound Embedding |
-| dim_0002 | float |  | Feature 2 for the Ersilia Compound Embedding |
-| dim_0003 | float |  | Feature 3 for the Ersilia Compound Embedding |
-| dim_0004 | float |  | Feature 4 for the Ersilia Compound Embedding |
-| dim_0005 | float |  | Feature 5 for the Ersilia Compound Embedding |
-| dim_0006 | float |  | Feature 6 for the Ersilia Compound Embedding |
-| dim_0007 | float |  | Feature 7 for the Ersilia Compound Embedding |
-| dim_0008 | float |  | Feature 8 for the Ersilia Compound Embedding |
-| dim_0009 | float |  | Feature 9 for the Ersilia Compound Embedding |
+| feat_0000 | float |  | Feature 0 for the Ersilia Compound Embedding |
+| feat_0001 | float |  | Feature 1 for the Ersilia Compound Embedding |
+| feat_0002 | float |  | Feature 2 for the Ersilia Compound Embedding |
+| feat_0003 | float |  | Feature 3 for the Ersilia Compound Embedding |
+| feat_0004 | float |  | Feature 4 for the Ersilia Compound Embedding |
+| feat_0005 | float |  | Feature 5 for the Ersilia Compound Embedding |
+| feat_0006 | float |  | Feature 6 for the Ersilia Compound Embedding |
+| feat_0007 | float |  | Feature 7 for the Ersilia Compound Embedding |
+| feat_0008 | float |  | Feature 8 for the Ersilia Compound Embedding |
+| feat_0009 | float |  | Feature 9 for the Ersilia Compound Embedding |
 
 _10 of 1024 columns are shown_
 ### Source and Deployment
