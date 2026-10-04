@@ -1,6 +1,6 @@
 # Ersilia Compound Embeddings
 
-Bioactivity-aware chemical embeddings for small molecules. Using transfer learning, we have created a fast network that produces embeddings of 1024 features condensing physicochemical as well as bioactivity information The training of the network has been done using the FS-Mol and ChEMBL datasets, and Grover, Mordred and ECFP descriptors
+Condenses a molecule into 1,024 features assembled by Ersilia for use across its own modelling work, bundling complementary descriptor families into one compact vector so that downstream models need only a single featurisation step. The representation underpinned the automated virtual screening cascade deployed with the H3D Centre in Cape Town, where low computational cost mattered as much as accuracy. Dimensions are not individually interpretable and are intended as input to classifiers or regressors.
 
 This model was incorporated on 2023-04-13.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-04-13.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `1024`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Embedding of 1024 features representing a compound
+- **Interpretation:** 1024 features encoding molecular structure for use in downstream models.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
