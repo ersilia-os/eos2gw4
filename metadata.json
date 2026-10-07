@@ -3,7 +3,7 @@
     "Slug": "ersilia-compound-embedding",
     "Status": "Ready",
     "Title": "Ersilia Compound Embeddings",
-    "Description": "Condenses a molecule into 1,024 features assembled by Ersilia for use across its own modelling work, bundling complementary descriptor families into one compact vector so that downstream models need only a single featurisation step. The representation underpinned the automated virtual screening cascade deployed with the H3D Centre in Cape Town, where low computational cost mattered as much as accuracy. Dimensions are not individually interpretable and are intended as input to classifiers or regressors.",
+    "Description": "Bioactivity-aware molecular representation built by Ersilia, condensing a compound into 1024 features. A prototypical network of the kind introduced with FS-Mol was trained on Grover and Mordred descriptors to learn an embedding shaped by assay outcomes rather than structure alone, used to embed a reference library of around two million ChEMBL molecules, and then distilled into a small network that maps ECFP fingerprints straight onto those embeddings. That last step makes the descriptor cheap enough for routine screening. Individual dimensions are not interpretable.",
     "Deployment": [
         "Local"
     ],
@@ -20,7 +20,7 @@
     ],
     "Output Dimension": 1024,
     "Output Consistency": "Fixed",
-    "Interpretation": "1024 features encoding molecular structure for use in downstream models.",
+    "Interpretation": "1024 bioactivity-aware features condensing a molecule for use as input to downstream models.",
     "Tag": [
         "Descriptor",
         "Embedding"
