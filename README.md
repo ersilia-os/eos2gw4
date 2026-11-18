@@ -2,7 +2,8 @@
 
 Bioactivity-aware molecular representation built by Ersilia, condensing a compound into 1024 features. A prototypical network of the kind introduced with FS-Mol was trained on Grover and Mordred descriptors to learn an embedding shaped by assay outcomes rather than structure alone, used to embed a reference library of around two million ChEMBL molecules, and then distilled into a small network that maps ECFP fingerprints straight onto those embeddings. That last step makes the descriptor cheap enough for routine screening. Individual dimensions are not interpretable.
 
-This model was incorporated on 2023-04-13.Last packaged on 2026-08-31.
+This model was incorporated on 2023-04-13.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 1024 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2gw4](https://hub.docker.com/r/ersiliaos/eos2gw4)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2gw4.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2gw4.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2gw4_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2gw4_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
